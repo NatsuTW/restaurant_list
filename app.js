@@ -5,12 +5,12 @@ const app = express()
 const port = 3000
 
 // set template engine
-app.engine('handlebars', exphbs({ defaultLayout: 'main' }))
+app.engine('handlebars', exphbs.engine({ defaultLayout: 'main' }))
 app.set('view engine', 'handlebars')
 
 // routes setting
 app.get('/', (req, res) => {
-  res.send('This is my first project')
+  res.render('index')
 })
 
 // listen on the Express server
