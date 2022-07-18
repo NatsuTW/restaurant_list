@@ -48,7 +48,7 @@ http://localhost:3000
 - Node.js 14.16.0
 - Express 4.16.4
 - Express-Handlebars 6.0.6
-- Bootstrap 5.2.0
+- Bootstrap 5.1.3
 - Font-awesome 6.1.1
 
 ## 開發人員
